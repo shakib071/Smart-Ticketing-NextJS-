@@ -3,6 +3,9 @@ import Header from '@/components/header/Header';
 import Footer from '@/components/footer/Footer';
 import Banner from '@/components/Banner/Banner';
 import BannerCard from '@/components/BannerCard/BannerCard';
+import Offer from '@/components/Offers/Offer';
+import Ticket from '@/components/Ticket/Ticket';
+import TicketSelection from '@/components/TicketSelection/TicketSelection';
 
 export default function Home() {
   return (
@@ -12,6 +15,9 @@ export default function Home() {
       <div className='flex-1'>
         <Banner />
         <BannerCard />
+        <Offer />
+        <Ticket />
+        <TicketSelection />
       </div>
       <Footer />
       
