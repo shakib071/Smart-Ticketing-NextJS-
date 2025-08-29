@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '@/components/header/Header';
 import Footer from '@/components/footer/Footer';
 import Banner from '@/components/Banner/Banner';
+import BannerCard from '@/components/BannerCard/BannerCard';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Header />
       <div className='flex-1'>
         <Banner />
+        <BannerCard />
       </div>
       <Footer />
       
